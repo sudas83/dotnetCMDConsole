@@ -12,7 +12,11 @@ namespace MyConsole
         {
             Console.WriteLine("Master branch");
             Console.WriteLine("firstBranch branch");
+//<<<<<<< HEAD
             Console.WriteLine("Master branch");
+//=======
+            Console.WriteLine("first branch2");
+//>>>>>>> firstBranch
             Console.ReadLine();
         }
     }
